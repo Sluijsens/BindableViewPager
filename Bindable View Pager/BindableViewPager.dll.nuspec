@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Sluijsens.BindableViewPager</id>
+    <version>1.0.1</version>
+    <authors>Sluijsens</authors>
+    <owners>Sluijsens</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Provides a bindable Android ViewPager for use with MvvmCross bindings. This package is only compatible with MvvmCross version 4 and will not work with version 3 or earlier.</description>
+    <releaseNotes>Adds a bindable ViewPager as well as the bindable ViewPager adapter.</releaseNotes>
+    <copyright>Copyright 2016</copyright>
+    <tags>bindable view pager android mvvmcross binding bindings</tags>
+    <dependencies>
+      <dependency id="MvvmCross.Core" version="4.1.6" />
+      <dependency id="Xamarin.Android.Support.v4" version="23.3.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="*.dll" target="lib\MonoAndroid23" />
+  </files>
+</package>
